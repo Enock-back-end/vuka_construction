@@ -6,7 +6,7 @@
 .page-hero {
   background:
     linear-gradient(135deg, rgba(13,33,71,.96) 0%, rgba(27,58,107,.9) 60%, rgba(30,86,160,.82) 100%),
-    url('https://images.unsplash.com/photo-1504307651254-35680f356dfd?w=1400&q=75&fit=crop') center/cover no-repeat;
+    url('assets/site-photos/07-power-floating.jpeg') center/cover no-repeat;
   padding: 4.5rem 0 3.5rem;
   position: relative;
 }
@@ -458,7 +458,7 @@
 .owner-photo {
   background:
     linear-gradient(135deg, rgba(13,33,71,.85) 0%, rgba(27,58,107,.75) 100%),
-    url('https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=400&q=80&fit=crop') center/cover no-repeat;
+    url('assets/site-photos/09-brochure-back.jpeg') center/cover no-repeat;
   display: flex;
   flex-direction: column;
   align-items: center;

@@ -255,7 +255,7 @@ input, select, textarea, button { font-family: inherit; }
   min-height: 88vh;
   background:
     linear-gradient(135deg, rgba(13,33,71,.92) 0%, rgba(27,58,107,.82) 55%, rgba(30,86,160,.75) 100%),
-    url('https://images.unsplash.com/photo-1504307651254-35680f356dfd?w=1600&q=80&fit=crop') center/cover no-repeat;
+    url('assets/site-photos/06-warehouse-slab.jpeg') center/cover no-repeat;
   display: flex;
   align-items: center;
   overflow: hidden;
