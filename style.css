@@ -1145,4 +1145,21 @@ input, select, textarea, button { font-family: inherit; }
   .btn-primary, .btn-ghost { width: 100%; justify-content: center; }
   .about-badge { position: static; margin-top: 1rem; display: inline-flex; gap: .5rem; align-items: center; }
   .badge-num, .badge-text { font-size: 1.2rem; }
+
+  /* Utility strip — hide all extras on tiny screens */
+  .utility-left .util-divider,
+  .utility-left .util-item:not(:first-child) { display: none; }
+
+  /* About page — two-col story image responsive height */
+  .two-col img[style*="height:380px"] { height: 240px !important; }
+}
+
+/* Extra small screens: photo grid single column */
+@media (max-width: 400px) {
+  .about-photo-grid {
+    grid-template-columns: 1fr;
+    grid-template-rows: auto;
+  }
+  .about-photo-card.tall { grid-column: span 1; }
+  .about-photo-card img { min-height: 200px; height: 200px; }
 }
